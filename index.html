@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text reveal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/ico" href="./favicon.ico">
+
+</head>
+<body>
+<section >
+	<div class="content">
+	<h2>Scratch to reveal About -INDIA-</h2>
+	<p>India remains one of the most ethnically diverse countries in the world. Apart from its many religions and sects, India is home to innumerable castes and tribes, as well as to more than a dozen major and hundreds of minor linguistic groups from several language families unrelated to one another. Religious minorities, including Muslims, Christians, Sikhs, Buddhists, and Jains, still account for a significant proportion of the population; collectively, their numbers exceed the populations of all countries except China. Earnest attempts have been made to instill a spirit of nationhood in so varied a population, but tensions between neighbouring groups have remained and at times have resulted in outbreaks of violence. Yet social legislation has done much to alleviate the disabilities previously suffered by formerly “untouchable” castes, tribal populations, women, and other traditionally disadvantaged segments of society. At independence..</p>
+	</div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+<script>
+	function setup(){
+		createCanvas(windowWidth,windowHeight);
+
+	}
+
+	function draw(){
+		strokeWeight(80);
+		if(mouseIsPressed === true){
+			line(mouseX,mouseY,pmouseX,pmouseY)
+		}
+	}
+	
+</script>
+</body>
+</html>
